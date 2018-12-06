@@ -1,0 +1,2 @@
+﻿widgets.newPosts.smallhelp = 该插件播放最新的帖子 
+newPosts.title = 最近的帖子

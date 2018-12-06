@@ -1,0 +1,1 @@
+<!-- wiadomość grid - bloki obok siebie -->

@@ -1,0 +1,1 @@
+{L key = "admin.main.tpl.design"} <strong>Adam Czajkowski</strong><br>Windu <span class="badge badge-white">3.1</span> rev: <strong>{config::get(revision)}</strong>

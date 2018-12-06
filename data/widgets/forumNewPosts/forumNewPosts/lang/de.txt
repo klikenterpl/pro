@@ -1,0 +1,2 @@
+widgets.newPosts.smallhelp = Das Widget zeigt die neuesten Beiträge
+newPosts.title = Aktuelle Beiträge

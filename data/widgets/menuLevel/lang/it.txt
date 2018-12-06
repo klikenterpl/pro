@@ -1,0 +1,1 @@
+ widgets.menuLevel.smallhelp = Genera un menu con un dato livello di albero aperto

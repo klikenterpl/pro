@@ -1,0 +1,108 @@
+@import url(http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+.punkowanie{@import url('https://fonts.googleapis.com/css?family=Oleo+Script');
+    border-left: 10px solid #E4E3F1;
+    color: #505050;
+    display: block;
+    margin: 0px 0px 15px 0px;
+    padding-left: 5px;
+    padding-top: 3px;
+    text-decoration: none;
+    text-align: left;
+    font-size: 0.7em;
+}
+.punkowanie:hover{
+    border-left: 11px solid #1B5661;
+    color: #1B5661;
+  	text-decoration: none;
+}
+
+.punkowanie img{margin-right:10px;}
+
+.punkowanie span, .punkowanie span a{
+    color: #000000;
+    margin: 0px 0px 0px 0px;
+    text-decoration: underline;;
+    text-align: left;
+    padding-top: 0px;
+    font-size: 1.0em;
+    line-height: normal;
+    padding-bottom: : 10px;
+}
+
+.punkowanie_ogloszenia{
+    border-left: 3px solid #094F5B;
+    color: #505050;
+    display: block;
+    margin: 0px 0;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+a.punktowanie h5{
+    font-size: 1.2em;
+}
+
+.row_punkt{
+    border-bottom: 1px dashed #7CA03E;
+    margin: 0px 0;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+.kolumn2{
+    -moz-column-count: 2; -moz-column-gap: 5px;
+-webkit-column-count: 2; -webkit-column-gap: 5px;column-count: 2; column-gap: 5px;
+}
+@media (max-width: 767px) {
+  .kolumn2{
+-moz-column-count:1;-webkit-column-count: 1;column-count: 1;
+}
+}
+
+.kolumn3{
+-moz-column-count: 3; -moz-column-gap: 5px;
+-webkit-column-count: 3; -webkit-column-gap: 5px;column-count: 3; column-gap: 5px;
+}
+.kolumn4{
+-moz-column-count: 4; -moz-column-gap: 5px;
+-webkit-column-count: 4; -webkit-column-gap: 5px;column-count: 4; column-gap: 5px;
+}
+
+@media (max-width: 1920px){
+ .kolumn4{
+    -moz-column-count: 4; -moz-column-gap: 5px;
+    -webkit-column-count: 4; -webkit-column-gap: 5px;column-count: 4; column-gap: 5px;
+}
+}
+@media (max-width: 1366px){
+ .kolumn4{
+    -moz-column-count: 3; -moz-column-gap: 5px;
+    -webkit-column-count: 3; -webkit-column-gap: 5px;column-count: 3; column-gap: 5px;
+}
+}
+
+@media (max-width: 767px) {
+  .kolumn3, .kolumn4{
+-moz-column-count:2;-webkit-column-count: 2;column-count: 2;
+}
+}
+@media (max-width: 480px) {
+  .kolumn3, .kolumn4{
+-moz-column-count:1;-webkit-column-count: 1;column-count: 1;
+}
+}
+
+
+/* ------------------------------------------------------------------------------------------------------- */
+
+
+/* Demo purposes only */
+body {
+  background-color: #212121;
+  text-align: center;
+}
+
+figcaption{
+    font-size: 1.2em;
+}

@@ -1,0 +1,59 @@
+
+
+
+
+.instytucje{
+    background: url(../images/instytucje-2000x790-40.jpg);
+}
+
+.handel{
+    background: url(../images/handel-uslugi.jpg);
+}
+.gastronomia{
+    background: url(../images/gdzie-zjada-sie-najwiecej-kebabow-i-pizzy-w-powiecie-monieckim.jpg);
+}
+.edukacja-medycyna{
+    background: url(../images/edukacja-medycyna.jpg);
+}
+.parafie{
+    background: url(../images/idzie-moj-pan-on-teraz-biegnie-by-spotkac-mnie-powiat-moniecki-parafie.jpg);
+}
+
+.agroturystyka{
+     background: url(../images/agroturystyka-powiat-moniecki.jpg);
+}
+
+
+.parallax{
+background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding-top: 0px;
+    padding-bottom: 0px;"
+  transition-property:background-color;
+  transition-duration:1s;
+  -webkit-transition: filter 1s ease-in-out;
+  -moz-transition: filter 1s ease-in-out;
+  -o-transition: filter 1s ease-in-out;
+  transition: filter 1s ease-in-out;
+
+
+
+-webkit-filter: grayscale(100%);
+-moz-filter: grayscale(100%);
+-o-filter: grayscale(100%);
+-ms-filter: grayscale(100%);
+filter: grayscale(100%);
+padding: 3%;
+}
+
+.parallax:hover{
+opacity: 1;
+ -webkit-filter: none;
+-moz-filter: none;
+-o-filter: none;
+-ms-filter: none;
+filter: none;
+}

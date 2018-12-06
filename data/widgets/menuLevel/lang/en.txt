@@ -1,0 +1,1 @@
+widgets.menuLevel.smallhelp = Generates a menu with an open given tree level

@@ -1,0 +1,39 @@
+
+
+
+
+.instytucje{
+    background: url(../../images/instytucje-2000x790-40.jpg);
+    padding-top: 0px;
+    padding-bottom: 0px;"
+  transition-property:background-color;
+  transition-duration:1s;
+  -webkit-transition: filter 1s ease-in-out;
+  -moz-transition: filter 1s ease-in-out;
+  -o-transition: filter 1s ease-in-out;
+  transition: filter 1s ease-in-out;
+
+
+
+-webkit-filter: grayscale(100%);
+-moz-filter: grayscale(100%);
+-o-filter: grayscale(100%);
+-ms-filter: grayscale(100%);
+filter: grayscale(100%);
+}
+.parallax{
+
+background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax:hover{
+opacity: 1;
+ -webkit-filter: none;
+-moz-filter: none;
+-o-filter: none;
+-ms-filter: none;
+filter: none;
+}

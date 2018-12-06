@@ -1,0 +1,20 @@
+artykul.tytul = "Tytuł ogłoszenia"
+artykul.podajtytul = "Podaj tytuł!"
+artykuly.trescartykulu = "Treść ogłoszenia"
+artykul.podajtresc = "Podaj treść!"
+artykuly.dodajartykul = "Dodaj ogłoszenie"
+artykul.dodanopomyslnie = "Twoje ogłoszenie zostało dodane pomyślnie. Musi ono jeszcze zostać zaakceptowany przez Administratora."
+dodajartykul.message.negative = "Błąd! Nie można dodać ogłoszenia!"
+
+artykul.imie = "Imię i nazwisko"
+artykul.podajimie = "Podaj imię i nazwisko!"
+
+
+artykul.telefon = "Numer telefonu"
+artykul.podajtelefon = "Podaj numer telefonu!"
+
+artykul.miejsce = "Miejscowość"
+artykul.podajmiejsce = "Podaj miejscowość!"
+
+artykul.cena = "Cena"
+artykul.podajcena = "Podaj cenę!"

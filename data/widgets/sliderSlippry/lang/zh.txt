@@ -1,0 +1,1 @@
+widgets.sliderSlippry.smallhelp = 滑塊Slippry有照片

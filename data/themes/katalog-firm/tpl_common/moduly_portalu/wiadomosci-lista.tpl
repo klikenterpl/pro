@@ -1,0 +1,1 @@
+<!-- wiadomości jedna pod drugą -->

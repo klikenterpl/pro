@@ -1,0 +1,2 @@
+widgets.newPosts.smallhelp = The widget displays the newest posts
+new.posts.title = Recent Posts

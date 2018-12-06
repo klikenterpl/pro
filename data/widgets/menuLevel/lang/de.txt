@@ -1,0 +1,1 @@
+ widgets.menuLevel.smallhelp = Erzeugt ein Menü mit einer offenen gegeben Baumebene

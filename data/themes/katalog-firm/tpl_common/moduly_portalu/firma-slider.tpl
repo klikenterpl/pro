@@ -1,0 +1,1 @@
+<!-- otwarta firma - slider, opis, komentarze -->

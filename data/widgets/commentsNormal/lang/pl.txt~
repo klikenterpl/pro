@@ -1,0 +1,11 @@
+comments.normal.content = Treść odpowiedzi
+comments.normal.givecontent = Wpisz treść odpowiedzi
+comments.normal.email = Email
+comments.normal.giveemail = Podaj poprawny email
+comments.normal.loginemail = Zaloguj się a następnie dodaj komentarz!
+comments.normal.post = Zamieść odpowiedź
+comments.normal.comments = Komentarze
+comments.normal.addcomments = Dodaj odpowiedź
+comments.normal.mustlogin = <a href="./panel-uzytkownika"> Zaloguj się</a> lub <a href="./rejestracja" >zarejestruj</a> aby dodawać komentarze!
+
+widgets.commentsNormal.smallhelp = Wyświetla komentarze

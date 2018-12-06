@@ -1,0 +1,1 @@
+<!-- index z mapą, mapy aktulnie nie działają. działa tylko mapa na icelandic -->

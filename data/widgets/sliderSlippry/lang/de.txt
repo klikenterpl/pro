@@ -1,0 +1,1 @@
+widgets.sliderSlippry.smallhelp = Slider Slippry mit Fotos

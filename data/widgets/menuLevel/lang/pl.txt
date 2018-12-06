@@ -1,0 +1,1 @@
+widgets.menuLevel.smallhelp = Generuje menu z otwartym danym poziomem drzewka

@@ -1,0 +1,2 @@
+﻿widgets.newPosts.smallhelp = Il widget mostra i messaggi più recenti
+newPosts.title = Messaggi recenti
