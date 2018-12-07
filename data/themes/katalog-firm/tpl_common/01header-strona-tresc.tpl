@@ -15,7 +15,7 @@
 								    </div>
 								    <div class="collapse navbar-collapse" id="navbar-collapse-1">
 								      <ul class="nav navbar-nav">
-								      	<li><a href="#"><i class="wm-color iconfinder-back-322419"></i></a></li>
+								      	<li><a href="javascript: window.history.back()"><i class="wm-color iconfinder-back-322419"></i></a></li>
 								        <li class="active"><a href="{{$HOME}}">Katalog firm</a>
 								        	<ul class="wm-dropdown-menu">
 								        		<li><a href="index.html">Katalog Urzędów i Instytucji</a></li>

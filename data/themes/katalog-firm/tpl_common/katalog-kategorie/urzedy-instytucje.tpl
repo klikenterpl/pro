@@ -27,7 +27,7 @@
 					<div class="tab-content">
 						<div role="tabpanel" class="tab-pane active" id="instytucje-monki">
 										<figure class="ec-tabthumb">
-											{{W name=kataloglista limit=3 length=42 parent=1122}}
+											{{W name=kataloglista limit=10 length=42 parent=1122}}
 										</figure>
 									</div>
 									<div role="tabpanel" class="tab-pane active" id="instytucje-trzcianne">

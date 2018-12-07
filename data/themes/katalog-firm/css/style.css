@@ -392,7 +392,7 @@ address {
     font-size: 10px;
     margin-left: 8px;
 }
-.navbar-nav > li:last-child > a:after { display: none; }
+.navbar-nav > li:last-child > a:after, .navbar-nav > li:first-child > a:after { display: none; }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
 }
 .navbar-nav li:hover > .wm-dropdown-menu {

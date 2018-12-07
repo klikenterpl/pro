@@ -88,29 +88,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     ),
   ),
   'nocache_hash' => '88075c09317e62c7d6-56717385',
-  'variables' => 
-  array (
-    'cssFile' => 0,
-    'HOME' => 0,
-    'jsFile' => 0,
-    'loggedIn' => 1,
-    'configPomName' => 1,
-    'bg' => 1,
-    'loggedUser' => 1,
-    'pins' => 1,
-    'page_content' => 1,
-    'SITE_PATH' => 1,
-    'REQUEST' => 1,
-    'icon' => 0,
-    'lang' => 0,
-    'pagesDB' => 0,
-  ),
-  'has_nocache_code' => true,
   'version' => 'Smarty-3.1.18',
-  'unifunc' => 'content_5c093180def727_21995473',
+  'unifunc' => 'content_5c0a21729e7e68_23849816',
+  'has_nocache_code' => true,
   'cache_lifetime' => 3600,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5c093180def727_21995473')) {function content_5c093180def727_21995473($_smarty_tpl) {?><?php $_smarty = $_smarty_tpl->smarty; if (!is_callable('smarty_function_L')) include 'G:\\wamp\\www\\pro/data/functions\\function.L.php';
+<?php if ($_valid && !is_callable('content_5c0a21729e7e68_23849816')) {function content_5c0a21729e7e68_23849816($_smarty_tpl) {?><?php $_smarty = $_smarty_tpl->smarty; if (!is_callable('smarty_function_L')) include 'G:\\wamp\\www\\pro/data/functions\\function.L.php';
 ?><!DOCTYPE html>
 <html>
 	<head>

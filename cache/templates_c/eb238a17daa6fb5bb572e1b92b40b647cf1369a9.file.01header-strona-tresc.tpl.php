@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2018-12-06 15:26:54
+<?php /* Smarty version Smarty-3.1.18, created on 2018-12-07 08:46:41
          compiled from "G:\wamp\www\pro\data\themes\katalog-firm\tpl_common\01header-strona-tresc.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:18435c0931ae9ba5b9-78748345%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'eb238a17daa6fb5bb572e1b92b40b647cf1369a9' => 
     array (
       0 => 'G:\\wamp\\www\\pro\\data\\themes\\katalog-firm\\tpl_common\\01header-strona-tresc.tpl',
-      1 => 1544103900,
+      1 => 1544168795,
       2 => 'file',
     ),
   ),
@@ -15,14 +15,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.18',
+  'unifunc' => 'content_5c0931ae9ca1d0_50500866',
   'variables' => 
   array (
     'HOME' => 0,
     'TEMPLATE_HOME' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.18',
-  'unifunc' => 'content_5c0931ae9ca1d0_50500866',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5c0931ae9ca1d0_50500866')) {function content_5c0931ae9ca1d0_50500866($_smarty_tpl) {?>
 
@@ -43,7 +43,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 								    </div>
 								    <div class="collapse navbar-collapse" id="navbar-collapse-1">
 								      <ul class="nav navbar-nav">
-								      	<li><a href="#"><i class="wm-color iconfinder-back-322419"></i></a></li>
+								      	<li><a href="javascript: window.history.back()"><i class="wm-color iconfinder-back-322419"></i></a></li>
 								        <li class="active"><a href="<?php echo $_smarty_tpl->tpl_vars['HOME']->value;?>
 ">Katalog firm</a>
 								        	<ul class="wm-dropdown-menu">

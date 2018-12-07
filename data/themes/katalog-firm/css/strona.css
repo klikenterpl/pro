@@ -10,8 +10,8 @@ iframe {
 .iconfinder-back-322419 {
     display: block;
     content: '';
-    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGhlaWdodD0iMzJweCIgaWQ9IkxheWVyXzEiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMyIDMyOyIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgMzIgMzIiIHdpZHRoPSIzMnB4IiB4bWw6c3BhY2U9InByZXNlcnZlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg0OCAzODQpIj48cGF0aCBkPSJNLTMwLjk5OS0zNzYuNWMtNC45MDcsMC05LjI1MiwyLjM2Ni0xMS45ODcsNi4wMTJsLTUuMDEzLTUuMDEydjE2aDE2bC01LjQ0Mi01LjQ0M2MxLjQ0Ni00LjM4Nyw1LjU3MS03LjU1NywxMC40NC03LjU1NyAgIGM2LjA3OCwwLDExLDQuOTI2LDExLDExQy0xNi4wMDEtMzY5Ljc4Ni0yMi43MTYtMzc2LjUtMzAuOTk5LTM3Ni41eiIvPjwvZz48L3N2Zz4=);
-    width:20px;
-    height:20px;
+    background-image: url('../images/cofnij-do-stronymonki.png');
+    width:25px;
+    height:25px;
     color:white;
 }

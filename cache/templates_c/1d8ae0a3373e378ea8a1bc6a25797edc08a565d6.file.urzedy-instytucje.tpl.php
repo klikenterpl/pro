@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2018-12-06 15:26:36
+<?php /* Smarty version Smarty-3.1.18, created on 2018-12-07 08:35:09
          compiled from "G:\wamp\www\pro\data\themes\katalog-firm\tpl_common\katalog-kategorie\urzedy-instytucje.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:208525c09319cbe39e6-00871443%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '1d8ae0a3373e378ea8a1bc6a25797edc08a565d6' => 
     array (
       0 => 'G:\\wamp\\www\\pro\\data\\themes\\katalog-firm\\tpl_common\\katalog-kategorie\\urzedy-instytucje.tpl',
-      1 => 1544103900,
+      1 => 1544168108,
       2 => 'file',
     ),
   ),
@@ -15,9 +15,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.18',
   'unifunc' => 'content_5c09319cc1f0e4_22662232',
+  'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5c09319cc1f0e4_22662232')) {function content_5c09319cc1f0e4_22662232($_smarty_tpl) {?><?php if (!is_callable('smarty_function_W')) include 'G:\\wamp\\www\\pro/data/functions\\function.W.php';
 ?><div class="wm-main-section wm-categories-full">
@@ -49,7 +49,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 					<div class="tab-content">
 						<div role="tabpanel" class="tab-pane active" id="instytucje-monki">
 										<figure class="ec-tabthumb">
-											<?php echo smarty_function_W(array('name'=>'kataloglista','limit'=>3,'length'=>42,'parent'=>1122),$_smarty_tpl);?>
+											<?php echo smarty_function_W(array('name'=>'kataloglista','limit'=>10,'length'=>42,'parent'=>1122),$_smarty_tpl);?>
 
 										</figure>
 									</div>
