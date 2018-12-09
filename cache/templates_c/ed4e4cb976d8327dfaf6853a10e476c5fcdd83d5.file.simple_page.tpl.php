@@ -1,14 +1,46 @@
+<?php /* Smarty version Smarty-3.1.18, created on 2018-12-09 11:20:21
+         compiled from "D:\wamp\www\VIPstronymonki\pro\data\themes\katalog-firm\tpl_views\simple_page.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:271905c0ceb9a312b84-71053453%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    'ed4e4cb976d8327dfaf6853a10e476c5fcdd83d5' => 
+    array (
+      0 => 'D:\\wamp\\www\\VIPstronymonki\\pro\\data\\themes\\katalog-firm\\tpl_views\\simple_page.tpl',
+      1 => 1544350820,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '271905c0ceb9a312b84-71053453',
+  'function' => 
+  array (
+  ),
+  'version' => 'Smarty-3.1.18',
+  'unifunc' => 'content_5c0ceb9a46b195_86647695',
+  'variables' => 
+  array (
+    'page' => 0,
+    'pagesDB' => 0,
+    'TEMPLATE_HOME' => 0,
+    'HOME' => 0,
+  ),
+  'has_nocache_code' => false,
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_5c0ceb9a46b195_86647695')) {function content_5c0ceb9a46b195_86647695($_smarty_tpl) {?><?php if (!is_callable('smarty_function_W')) include 'D:\\wamp\\www\\VIPstronymonki\\pro/data/functions\\function.W.php';
+?>
 
 
+   	<?php echo $_smarty_tpl->getSubTemplate ('../tpl_common/01header-podstrona.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 
-   	{{include file='../tpl_common/01header-podstrona.tpl'}}
-{{W name=notify}}
+<?php echo smarty_function_W(array('name'=>'notify'),$_smarty_tpl);?>
+
 		<div class="wm-mini-header">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
 						<ul class="wm-breadcrumb">
-{{W name=navigation page=$page}}
+<?php echo smarty_function_W(array('name'=>'navigation','page'=>$_smarty_tpl->tpl_vars['page']->value),$_smarty_tpl);?>
+
 						</ul>
 					</div>
 				</div>
@@ -28,24 +60,31 @@
 							<div class="col-md-8">
 								
 									<div class="wm-editore-section">
-										<h1>{{$page->views}}</h1>
-										<h6><a href="?edycja={{$page->id}}">Edytuj informację</a></h6>
-										<h3>{{$pagesDB->get($page->parentId,'name')}} - {{$page->name}}</h3>
-										<p>{{eval var=$page->content}}</p>
+										<h1><?php echo $_smarty_tpl->tpl_vars['page']->value->views;?>
+</h1>
+										<h6><a href="?edycja=<?php echo $_smarty_tpl->tpl_vars['page']->value->id;?>
+">Edytuj informację</a></h6>
+										<h3><?php echo $_smarty_tpl->tpl_vars['pagesDB']->value->get($_smarty_tpl->tpl_vars['page']->value->parentId,'name');?>
+ - <?php echo $_smarty_tpl->tpl_vars['page']->value->name;?>
+</h3>
+										<p><?php $_template = new Smarty_Internal_Template('eval:'.$_smarty_tpl->tpl_vars['page']->value->content, $_smarty_tpl->smarty, $_smarty_tpl);echo $_template->fetch(); ?></p>
 								</div>
 
 								<!--// Listing Detail Slider \\-->
 								<div class="wm-listing-detail-slider">
 									<div class="wm-listing-detail-slider-wrap">
-										<img alt="" src="{{$TEMPLATE_HOME}}/extra-images/listing-detail-1.jpg">
+										<img alt="" src="<?php echo $_smarty_tpl->tpl_vars['TEMPLATE_HOME']->value;?>
+/extra-images/listing-detail-1.jpg">
 										<div class="wm-listing-tag"><a class="wm-bgcolor" href="#">Courses</a></div>
 									</div>
 									<div class="wm-listing-detail-slider-wrap">
-										<img alt="" src="{{$TEMPLATE_HOME}}/extra-images/listing-detail-2.jpg">
+										<img alt="" src="<?php echo $_smarty_tpl->tpl_vars['TEMPLATE_HOME']->value;?>
+/extra-images/listing-detail-2.jpg">
 										<div class="wm-listing-tag"><a class="wm-bgcolor" href="#">Courses</a></div>
 									</div>
 									<div class="wm-listing-detail-slider-wrap">
-										<img alt="" src="{{$TEMPLATE_HOME}}/extra-images/listing-detail-3.jpg">
+										<img alt="" src="<?php echo $_smarty_tpl->tpl_vars['TEMPLATE_HOME']->value;?>
+/extra-images/listing-detail-3.jpg">
 										<div class="wm-listing-tag"><a class="wm-bgcolor" href="#">Courses</a></div>
 									</div>
 								</div>
@@ -88,26 +127,37 @@
 										<div class="wm-section-heading"><h2>Dane kontaktowe</h2></div>
 										<div class="wm-opening-hours wm-opening-info">
 											<ul>
-												<li>Addres: <span>{{$page->cf_Adres_string}}, {{$page->cf_Miejscowosc_string}}</span></li>
-												<li>Telefon: <span>{{$page->cf_Telefon_numeric}}</span></li>
-												<li>Email: <span><a href="mailto:{{$page->cf_email_string}}">{{$page->cf_email_string}}</a></span></li>
-												<li>Strona internetowa: <span>{{$page->cf_Stronawww_string}}</span></li>
+												<li>Addres: <span><?php echo $_smarty_tpl->tpl_vars['page']->value->cf_Adres_string;?>
+, <?php echo $_smarty_tpl->tpl_vars['page']->value->cf_Miejscowosc_string;?>
+</span></li>
+												<li>Telefon: <span><?php echo $_smarty_tpl->tpl_vars['page']->value->cf_Telefon_numeric;?>
+</span></li>
+												<li>Email: <span><a href="mailto:<?php echo $_smarty_tpl->tpl_vars['page']->value->cf_email_string;?>
+"><?php echo $_smarty_tpl->tpl_vars['page']->value->cf_email_string;?>
+</a></span></li>
+												<li>Strona internetowa: <span><?php echo $_smarty_tpl->tpl_vars['page']->value->cf_Stronawww_string;?>
+</span></li>
 											</ul>
 										</div>
 									</div>
 								</div>
 
 								<a class="wm-btn-style-three wm-bgcolor" href="#">Napisz wiadomość</a>
-								<a class="wm-btn-style-three wm-bgcolor" href="{{$HOME}}przekierowanie?do={{$page->cf_Stronawww_string}}"><i class="flaticon-symbol"></i> Przejdź na stronę</a>
+								<a class="wm-btn-style-three wm-bgcolor" href="<?php echo $_smarty_tpl->tpl_vars['HOME']->value;?>
+przekierowanie?do=<?php echo $_smarty_tpl->tpl_vars['page']->value->cf_Stronawww_string;?>
+"><i class="flaticon-symbol"></i> Przejdź na stronę</a>
 
 								<!--// Features \\-->
 								<div class="wm-features">
 									<div class="wm-section-heading"><h2>Szczegóły</h2></div>
 									<ul class="row">
 										<li class="col-md-4">
-											<span>Identyfikator: {{$page->id}}</span>
-											<span>NIP: {{$page->cf_NIP_numeric}}</span>
-											<span>REGON: {{$page->cf_REGON_numeric}}</span>
+											<span>Identyfikator: <?php echo $_smarty_tpl->tpl_vars['page']->value->id;?>
+</span>
+											<span>NIP: <?php echo $_smarty_tpl->tpl_vars['page']->value->cf_NIP_numeric;?>
+</span>
+											<span>REGON: <?php echo $_smarty_tpl->tpl_vars['page']->value->cf_REGON_numeric;?>
+</span>
 											<span>Condo</span>
 										</li>
 										<li class="col-md-4">
@@ -136,10 +186,14 @@
 								<div class="wm-floorplans">
 									<div class="wm-section-heading"><h2>floor plans</h2></div>
 									<ul class="row">
-										<li class="col-md-3"><a href="#"><img alt="" src="{{$TEMPLATE_HOME}}/extra-images/floorplans-1.jpg"> <span>+3</span></a></li>
-										<li class="col-md-3"><a href="#"><img alt="" src="{{$TEMPLATE_HOME}}/extra-images/floorplans-2.jpg"> <span>+3</span></a></li>
-										<li class="col-md-3"><a href="#"><img alt="" src="{{$TEMPLATE_HOME}}/extra-images/floorplans-3.jpg"> <span>+3</span></a></li>
-										<li class="col-md-3"><a href="#"><img alt="" src="{{$TEMPLATE_HOME}}/extra-images/floorplans-4.jpg"> <span>+3</span></a></li>
+										<li class="col-md-3"><a href="#"><img alt="" src="<?php echo $_smarty_tpl->tpl_vars['TEMPLATE_HOME']->value;?>
+/extra-images/floorplans-1.jpg"> <span>+3</span></a></li>
+										<li class="col-md-3"><a href="#"><img alt="" src="<?php echo $_smarty_tpl->tpl_vars['TEMPLATE_HOME']->value;?>
+/extra-images/floorplans-2.jpg"> <span>+3</span></a></li>
+										<li class="col-md-3"><a href="#"><img alt="" src="<?php echo $_smarty_tpl->tpl_vars['TEMPLATE_HOME']->value;?>
+/extra-images/floorplans-3.jpg"> <span>+3</span></a></li>
+										<li class="col-md-3"><a href="#"><img alt="" src="<?php echo $_smarty_tpl->tpl_vars['TEMPLATE_HOME']->value;?>
+/extra-images/floorplans-4.jpg"> <span>+3</span></a></li>
 									</ul>
 								</div>
 								<!--// Floor Plans \\-->
@@ -149,7 +203,8 @@
 									<div class="wm-section-heading"><h2>you might also like</h2></div>
 									<ul class="row">
 										<li class="col-md-6">
-											<figure><a href="#"><img alt="" src="{{$TEMPLATE_HOME}}/extra-images/recent-realestate-1.jpg"></a>
+											<figure><a href="#"><img alt="" src="<?php echo $_smarty_tpl->tpl_vars['TEMPLATE_HOME']->value;?>
+/extra-images/recent-realestate-1.jpg"></a>
 												<figcaption>
 													<div class="wm-listing-tag"><a href="#" class="wm-bgcolor">Condo</a></div>
 													<h2><a href="#">463 E 40th Saints 11203</a></h2>
@@ -165,7 +220,8 @@
 											</div>
 										</li>
 										<li class="col-md-6">
-											<figure><a href="#"><img alt="" src="{{$TEMPLATE_HOME}}/extra-images/recent-realestate-2.jpg"></a>
+											<figure><a href="#"><img alt="" src="<?php echo $_smarty_tpl->tpl_vars['TEMPLATE_HOME']->value;?>
+/extra-images/recent-realestate-2.jpg"></a>
 												<figcaption>
 													<div class="wm-listing-tag"><a href="#" class="wm-bgcolor">Multi-family home</a></div>
 													<h2><a href="#">439 Putnam Ave 11221</a></h2>
@@ -192,7 +248,8 @@
 				                          <div class="wm-reviews-wrap">
 				                            <ul>
 				                              <li>
-				                                <figure><a href="#"><img alt="" src="{{$TEMPLATE_HOME}}/extra-images/latest-review-1.jpg"></a></figure>
+				                                <figure><a href="#"><img alt="" src="<?php echo $_smarty_tpl->tpl_vars['TEMPLATE_HOME']->value;?>
+/extra-images/latest-review-1.jpg"></a></figure>
 				                                <div class="wm-review-text">
 				                                  <h6><a href="#">Charles B. Russell</a></h6>
 				                                  <div class="wm-review-list">
@@ -210,7 +267,8 @@
 				                          <div class="wm-reviews-wrap">
 				                            <ul>
 				                              <li>
-				                                <figure><a href="#"><img alt="" src="{{$TEMPLATE_HOME}}/extra-images/latest-review-2.jpg"></a></figure>
+				                                <figure><a href="#"><img alt="" src="<?php echo $_smarty_tpl->tpl_vars['TEMPLATE_HOME']->value;?>
+/extra-images/latest-review-2.jpg"></a></figure>
 				                                <div class="wm-review-text">
 				                                  <h6><a href="#">Charles B. Russell</a></h6>
 				                                  <div class="wm-review-list">
@@ -225,7 +283,8 @@
 				                          </div>
 				                          <ul class="children">
 				                            <li>
-				                                <figure><a href="#"><img alt="" src="{{$TEMPLATE_HOME}}/extra-images/latest-review-3.jpg"></a></figure>
+				                                <figure><a href="#"><img alt="" src="<?php echo $_smarty_tpl->tpl_vars['TEMPLATE_HOME']->value;?>
+/extra-images/latest-review-3.jpg"></a></figure>
 				                                <div class="wm-review-text">
 				                                  <h6><a href="#">Charles B. Russell</a></h6>
 				                                  <div class="wm-review-list">
@@ -263,50 +322,58 @@
 			                    <div class="widget wm-searching-widget">
 			                        <div class="wm-widget-listing-heading">
 			                        	<h2>Przeglądaj firmy, urzędy, instytucje</h2>
-			                            {{W name=nextPrev}}
+			                            <?php echo smarty_function_W(array('name'=>'nextPrev'),$_smarty_tpl);?>
+
 			                <div class="col-md-12">
 							<div class="ec-accordian-element" id="accordion">
 							  <div class="panel panel-default">
 							    <div class="panel-heading">
 							      <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
 							          
-							          {{$pagesDB->get($page->parentId,'name')}}
+							          <?php echo $_smarty_tpl->tpl_vars['pagesDB']->value->get($_smarty_tpl->tpl_vars['page']->value->parentId,'name');?>
+
 							        </a>
 							    </div>
 							    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel">
 							      <div class="panel-body">
-							        {{W name=contentListShow type="lastest" bucket=$page->parentId fit="fit" filter="blur" showDate=true showAuthor=true showSource=true elementtype=1 imageWidth="" imageHeight="" count="" limit="10" cssUl="ec-icon-list-style" cssLi="fa wm-color fa-caret-right"}}
+							        <?php echo smarty_function_W(array('name'=>'contentListShow','type'=>"lastest",'bucket'=>$_smarty_tpl->tpl_vars['page']->value->parentId,'fit'=>"fit",'filter'=>"blur",'showDate'=>true,'showAuthor'=>true,'showSource'=>true,'elementtype'=>1,'imageWidth'=>'','imageHeight'=>'','count'=>'','limit'=>"10",'cssUl'=>"ec-icon-list-style",'cssLi'=>"fa wm-color fa-caret-right"),$_smarty_tpl);?>
+
 							      </div>
 							    </div>
 							  </div>
 							  <div class="panel panel-default">
 							    <div class="panel-heading">
 							      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-							          {{$pagesDB->get(1309,'name')}}
+							          <?php echo $_smarty_tpl->tpl_vars['pagesDB']->value->get(1309,'name');?>
+
 							        </a>
 							    </div>
 							    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel">
 							      <div class="panel-body">
-							        {{W name=contentListShow type="lastest" bucket=1309 fit="fit" filter="blur" showDate=true showAuthor=true showSource=true elementtype=1 imageWidth="" imageHeight="" count="" limit="10" cssUl="ec-icon-list-style" cssLi="fa wm-color fa-caret-right"}}
+							        <?php echo smarty_function_W(array('name'=>'contentListShow','type'=>"lastest",'bucket'=>1309,'fit'=>"fit",'filter'=>"blur",'showDate'=>true,'showAuthor'=>true,'showSource'=>true,'elementtype'=>1,'imageWidth'=>'','imageHeight'=>'','count'=>'','limit'=>"10",'cssUl'=>"ec-icon-list-style",'cssLi'=>"fa wm-color fa-caret-right"),$_smarty_tpl);?>
+
 							      </div>
 							    </div>
 							  </div>
 							  <div class="panel panel-default">
 							    <div class="panel-heading">
 							      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-							         {{$pagesDB->get(908,'name')}}
+							         <?php echo $_smarty_tpl->tpl_vars['pagesDB']->value->get(908,'name');?>
+
 							        </a>
 							    </div>
 							    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel">
 							      <div class="panel-body">
-							        {{W name=contentListShow type="lastest" bucket=908 fit="fit" filter="blur" showDate=true showAuthor=true showSource=true elementtype=1 imageWidth="" imageHeight="" count="" limit="10" cssUl="ec-icon-list-style" cssLi="fa wm-color fa-caret-right"}}
+							        <?php echo smarty_function_W(array('name'=>'contentListShow','type'=>"lastest",'bucket'=>908,'fit'=>"fit",'filter'=>"blur",'showDate'=>true,'showAuthor'=>true,'showSource'=>true,'elementtype'=>1,'imageWidth'=>'','imageHeight'=>'','count'=>'','limit'=>"10",'cssUl'=>"ec-icon-list-style",'cssLi'=>"fa wm-color fa-caret-right"),$_smarty_tpl);?>
+
 							      </div>
 							    </div>
 							  </div>
 							</div>
 						</div>
 			                        </div>
-									{{W name=tagsListNormal targetPage=475 count="10" cssUl="" cssLi="" showCount=true}}
+									<?php echo smarty_function_W(array('name'=>'tagsListNormal','targetPage'=>475,'count'=>"10",'cssUl'=>'','cssLi'=>'','showCount'=>true),$_smarty_tpl);?>
+
 			                    </div>
 
 		                        <div class="widget wm-featured-widget">
@@ -317,7 +384,8 @@
 		                                <ul>
 		                                    <li>
 		                                        <figure>
-		                                            <a href="#"><img src="{{$TEMPLATE_HOME}}/extra-images/directory-widget-1.jpg" alt=""></a>
+		                                            <a href="#"><img src="<?php echo $_smarty_tpl->tpl_vars['TEMPLATE_HOME']->value;?>
+/extra-images/directory-widget-1.jpg" alt=""></a>
 		                                            <i class="fa fa-long-arrow-right"></i>
 		                                        </figure>
 		                                        <section class="wm-newsinfo">
@@ -328,7 +396,8 @@
 		                                    </li>
 		                                    <li>
 		                                        <figure>
-		                                            <a href="#"><img src="{{$TEMPLATE_HOME}}/extra-images/directory-widget-2.jpg" alt=""></a>
+		                                            <a href="#"><img src="<?php echo $_smarty_tpl->tpl_vars['TEMPLATE_HOME']->value;?>
+/extra-images/directory-widget-2.jpg" alt=""></a>
 		                                            <i class="fa fa-long-arrow-right"></i>
 		                                        </figure>
 		                                        <section class="wm-newsinfo">
@@ -339,7 +408,8 @@
 		                                    </li>
 		                                    <li>
 		                                        <figure>
-		                                            <a href="#"><img src="{{$TEMPLATE_HOME}}/extra-images/directory-widget-3.jpg" alt=""></a>
+		                                            <a href="#"><img src="<?php echo $_smarty_tpl->tpl_vars['TEMPLATE_HOME']->value;?>
+/extra-images/directory-widget-3.jpg" alt=""></a>
 		                                            <i class="fa fa-long-arrow-right"></i>
 		                                        </figure>
 		                                        <section class="wm-newsinfo">
@@ -388,12 +458,16 @@ filter : alpha(opacity=70);
 
 
 
-{{include file='../tpl_common/10content-newsletter.tpl'}}
-{{include file='../tpl_common/11content-stopka.tpl'}}
-{{include file='../tpl_common/12login-register.tpl'}}
-{{include file='../tpl_common/java.tpl'}}
+<?php echo $_smarty_tpl->getSubTemplate ('../tpl_common/10content-newsletter.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
+
+<?php echo $_smarty_tpl->getSubTemplate ('../tpl_common/11content-stopka.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
+
+<?php echo $_smarty_tpl->getSubTemplate ('../tpl_common/12login-register.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
+
+<?php echo $_smarty_tpl->getSubTemplate ('../tpl_common/java.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 
 
 
 
- 
+
+ <?php }} ?>
