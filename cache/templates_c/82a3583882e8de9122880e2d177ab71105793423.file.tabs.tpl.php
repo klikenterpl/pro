@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2018-12-09 11:15:50
+<?php /* Smarty version Smarty-3.1.18, created on 2018-12-09 19:39:26
          compiled from "D:\wamp\www\VIPstronymonki\pro\app\plugins\admin\templates\common\tabs.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:14945c0ceb5670b0b6-84983877%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:24225c0d615ee6d189-62075707%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '14945c0ceb5670b0b6-84983877',
+  'nocache_hash' => '24225c0d615ee6d189-62075707',
   'function' => 
   array (
   ),
@@ -26,9 +26,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.18',
-  'unifunc' => 'content_5c0ceb567559b6_32323763',
+  'unifunc' => 'content_5c0d615eeb7517_62806590',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5c0ceb567559b6_32323763')) {function content_5c0ceb567559b6_32323763($_smarty_tpl) {?><?php if (!is_callable('smarty_function_L')) include 'D:\\wamp\\www\\VIPstronymonki\\pro/data/functions\\function.L.php';
+<?php if ($_valid && !is_callable('content_5c0d615eeb7517_62806590')) {function content_5c0d615eeb7517_62806590($_smarty_tpl) {?><?php if (!is_callable('smarty_function_L')) include 'D:\\wamp\\www\\VIPstronymonki\\pro/data/functions\\function.L.php';
 ?><?php if ($_smarty_tpl->tpl_vars['pins']->value!='') {?>
 	<div id="sidebar-right">
 		<ul>

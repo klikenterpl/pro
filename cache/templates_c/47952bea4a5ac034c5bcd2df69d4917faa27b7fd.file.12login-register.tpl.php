@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2018-12-09 11:16:58
+<?php /* Smarty version Smarty-3.1.18, created on 2018-12-09 19:39:35
          compiled from "D:\wamp\www\VIPstronymonki\pro\data\themes\katalog-firm\tpl_common\12login-register.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:165655c0ceb9aa13579-36042295%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:319735c0d6167b28762-12489221%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,15 +11,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '165655c0ceb9aa13579-36042295',
+  'nocache_hash' => '319735c0d6167b28762-12489221',
   'function' => 
   array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.18',
-  'unifunc' => 'content_5c0ceb9aa166b6_84817288',
+  'unifunc' => 'content_5c0d6167b2b053_50770516',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5c0ceb9aa166b6_84817288')) {function content_5c0ceb9aa166b6_84817288($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5c0d6167b2b053_50770516')) {function content_5c0d6167b2b053_50770516($_smarty_tpl) {?>
     <div class="modal fade" id="myModalsix" tabindex="-1" role="dialog">
 	  <div class="modal-dialog" role="document">
 	    <div class="modal-content">

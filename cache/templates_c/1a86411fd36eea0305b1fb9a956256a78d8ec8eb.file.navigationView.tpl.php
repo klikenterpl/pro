@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2018-12-09 11:16:58
+<?php /* Smarty version Smarty-3.1.18, created on 2018-12-09 19:40:39
          compiled from "D:\wamp\www\VIPstronymonki\pro\data\widgets\navigation\navigationView.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:296345c0ceb9a4e8434-30617153%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:47195c0d61a73cd119-36442847%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '296345c0ceb9a4e8434-30617153',
+  'nocache_hash' => '47195c0d61a73cd119-36442847',
   'function' => 
   array (
   ),
@@ -24,9 +24,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.18',
-  'unifunc' => 'content_5c0ceb9a57ce59_19719399',
+  'unifunc' => 'content_5c0d61a7459171_64270728',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5c0ceb9a57ce59_19719399')) {function content_5c0ceb9a57ce59_19719399($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_truncate')) include 'D:\\wamp\\www\\VIPstronymonki\\pro/app/plugins/html/smarty/plugins\\modifier.truncate.php';
+<?php if ($_valid && !is_callable('content_5c0d61a7459171_64270728')) {function content_5c0d61a7459171_64270728($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_truncate')) include 'D:\\wamp\\www\\VIPstronymonki\\pro/app/plugins/html/smarty/plugins\\modifier.truncate.php';
 ?><ul class="breadcrumb">
   <?php if (isset($_smarty_tpl->tpl_vars['page'])) {$_smarty_tpl->tpl_vars['page'] = clone $_smarty_tpl->tpl_vars['page'];
 $_smarty_tpl->tpl_vars['page']->value = $_smarty_tpl->tpl_vars['data']->value['page']; $_smarty_tpl->tpl_vars['page']->nocache = null; $_smarty_tpl->tpl_vars['page']->scope = 0;

@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2018-12-09 11:15:50
+<?php /* Smarty version Smarty-3.1.18, created on 2018-12-09 19:39:27
          compiled from "D:\wamp\www\VIPstronymonki\pro\app\plugins\admin\templates\common\content_list.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:287175c0ceb56922631-21214930%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:775c0d615f1614e1-63991084%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '287175c0ceb56922631-21214930',
+  'nocache_hash' => '775c0d615f1614e1-63991084',
   'function' => 
   array (
     'treelist' => 
@@ -36,9 +36,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => 0,
   'version' => 'Smarty-3.1.18',
-  'unifunc' => 'content_5c0ceb56d289b9_48652171',
+  'unifunc' => 'content_5c0d615f571044_84559123',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5c0ceb56d289b9_48652171')) {function content_5c0ceb56d289b9_48652171($_smarty_tpl) {?><?php if (isset($_smarty_tpl->tpl_vars['nowDatetime'])) {$_smarty_tpl->tpl_vars['nowDatetime'] = clone $_smarty_tpl->tpl_vars['nowDatetime'];
+<?php if ($_valid && !is_callable('content_5c0d615f571044_84559123')) {function content_5c0d615f571044_84559123($_smarty_tpl) {?><?php if (isset($_smarty_tpl->tpl_vars['nowDatetime'])) {$_smarty_tpl->tpl_vars['nowDatetime'] = clone $_smarty_tpl->tpl_vars['nowDatetime'];
 $_smarty_tpl->tpl_vars['nowDatetime']->value = generate::sqlDatetime(); $_smarty_tpl->tpl_vars['nowDatetime']->nocache = null; $_smarty_tpl->tpl_vars['nowDatetime']->scope = 0;
 } else $_smarty_tpl->tpl_vars['nowDatetime'] = new Smarty_variable(generate::sqlDatetime(), null, 0);?>
 <?php if ($_smarty_tpl->tpl_vars['creator']->value==1) {?><?php if (isset($_smarty_tpl->tpl_vars['creatorSelect'])) {$_smarty_tpl->tpl_vars['creatorSelect'] = clone $_smarty_tpl->tpl_vars['creatorSelect'];

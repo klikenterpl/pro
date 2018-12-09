@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2018-12-09 11:15:50
+<?php /* Smarty version Smarty-3.1.18, created on 2018-12-09 19:39:27
          compiled from "D:\wamp\www\VIPstronymonki\pro\app\plugins\admin\templates\common\pages.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:141485c0ceb56810e86-04436179%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:296685c0d615f0377f6-12549879%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '141485c0ceb56810e86-04436179',
+  'nocache_hash' => '296685c0d615f0377f6-12549879',
   'function' => 
   array (
   ),
@@ -26,9 +26,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.18',
-  'unifunc' => 'content_5c0ceb569190c4_47152448',
+  'unifunc' => 'content_5c0d615f157f00_75718902',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5c0ceb569190c4_47152448')) {function content_5c0ceb569190c4_47152448($_smarty_tpl) {?><?php if (!is_callable('smarty_function_L')) include 'D:\\wamp\\www\\VIPstronymonki\\pro/data/functions\\function.L.php';
+<?php if ($_valid && !is_callable('content_5c0d615f157f00_75718902')) {function content_5c0d615f157f00_75718902($_smarty_tpl) {?><?php if (!is_callable('smarty_function_L')) include 'D:\\wamp\\www\\VIPstronymonki\\pro/data/functions\\function.L.php';
 ?>			<div class="row-fluid">
 			  <div class="span5 box">
 			  	<h5><i class="fa fa-clipboard icon-margin icon-grey">&nbsp;</i> <?php echo smarty_function_L(array('key'=>"admin.content.common.tpl.pageslist"),$_smarty_tpl);?>

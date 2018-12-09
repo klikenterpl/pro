@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2018-12-09 11:16:59
+<?php /* Smarty version Smarty-3.1.18, created on 2018-12-09 19:39:37
          compiled from "D:\wamp\www\VIPstronymonki\pro\app\templates\error404.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:30095c0ceb9b5e8078-03504113%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:272165c0d61690e3806-66080551%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '30095c0ceb9b5e8078-03504113',
+  'nocache_hash' => '272165c0d61690e3806-66080551',
   'function' => 
   array (
   ),
@@ -21,9 +21,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.18',
-  'unifunc' => 'content_5c0ceb9b6501f4_16650226',
+  'unifunc' => 'content_5c0d6169128861_83214052',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5c0ceb9b6501f4_16650226')) {function content_5c0ceb9b6501f4_16650226($_smarty_tpl) {?><?php echo header('HTTP/1.x 404 Not Found');?>
+<?php if ($_valid && !is_callable('content_5c0d6169128861_83214052')) {function content_5c0d6169128861_83214052($_smarty_tpl) {?><?php echo header('HTTP/1.x 404 Not Found');?>
 
 <?php echo header("Status: 404 Not Found");?>
 

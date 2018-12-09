@@ -1,4 +1,4 @@
-<?php /*%%SmartyHeaderCode:182935c0ceb556dd6a2-38514653%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:295895c0d615de4d4a5-48539920%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -62,32 +62,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       1 => 1544277537,
       2 => 'file',
     ),
-    '8cc46736a1d6d33512b66cc0628ed55ccbe9a402' => 
+    '16e91ccf2c9d4015fe6e1cce02b7d9c38a681327' => 
     array (
-      0 => 'D:\\wamp\\www\\VIPstronymonki\\pro\\app\\plugins\\admin\\templates\\common\\images_modal.tpl',
-      1 => 1544277537,
-      2 => 'file',
-    ),
-    '1eaabeb84aeac373ea29e85e4dc2afa9e451dab1' => 
-    array (
-      0 => 'D:\\wamp\\www\\VIPstronymonki\\pro\\app\\plugins\\admin\\templates\\common\\widgets_modal.tpl',
-      1 => 1544277537,
-      2 => 'file',
-    ),
-    '8ce11ed9c57f9b22e4e910879397f019e6e1142a' => 
-    array (
-      0 => 'D:\\wamp\\www\\VIPstronymonki\\pro\\app\\plugins\\admin\\templates\\common\\files_modal.tpl',
-      1 => 1544277537,
-      2 => 'file',
-    ),
-    'cdb6c06e6100d14bee725f7deb34b6800fbf01f7' => 
-    array (
-      0 => 'D:\\wamp\\www\\VIPstronymonki\\pro\\app\\plugins\\admin\\templates\\common\\customfields_modal.tpl',
+      0 => 'D:\\wamp\\www\\VIPstronymonki\\pro\\app\\plugins\\admin\\templates\\common\\content_info.tpl',
       1 => 1544277537,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '182935c0ceb556dd6a2-38514653',
+  'nocache_hash' => '295895c0d615de4d4a5-48539920',
   'variables' => 
   array (
     'cssFile' => 0,
@@ -107,10 +89,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => true,
   'version' => 'Smarty-3.1.18',
-  'unifunc' => 'content_5c0ceb58520f91_18379912',
+  'unifunc' => 'content_5c0d6160d5da53_01683101',
   'cache_lifetime' => 3600,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5c0ceb58520f91_18379912')) {function content_5c0ceb58520f91_18379912($_smarty_tpl) {?><?php $_smarty = $_smarty_tpl->smarty; if (!is_callable('smarty_function_L')) include 'D:\\wamp\\www\\VIPstronymonki\\pro/data/functions\\function.L.php';
+<?php if ($_valid && !is_callable('content_5c0d6160d5da53_01683101')) {function content_5c0d6160d5da53_01683101($_smarty_tpl) {?><?php $_smarty = $_smarty_tpl->smarty; if (!is_callable('smarty_function_L')) include 'D:\\wamp\\www\\VIPstronymonki\\pro/data/functions\\function.L.php';
 ?><!DOCTYPE html>
 <html>
 	<head>

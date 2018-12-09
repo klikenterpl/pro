@@ -23,12 +23,12 @@
 
 							<!--// Widegt Category \\-->
 							<aside class="col-md-3 widget widget_category">
-								<div class="wm-widget-heading"> <h2>Useful Links</h2> </div>
+								<div class="wm-widget-heading"> <h2>Przydatne linki</h2> </div>
 								<ul>
-									<li><a href="add-listing-step-1.html">All Listings</a></li>
-									<li><a href="404-page.html">About Us</a></li>
-									<li><a href="pricing-plans.html">Our Pricing Tables</a></li>
-									<li><a href="testimonials.html">What Clients Say</a></li>
+									<li><a href="polecane.html">Polecane firmy</a></li>
+									<li><a href="praca.html">Pracuj u nas</a></li>
+									<li><a href="reklama.html">Zareklamuj się</a></li>
+									<li><a href="kontakt.html">Kontakt</a></li>
 								</ul>
 							</aside>
 							<!--// Widegt Category \\-->

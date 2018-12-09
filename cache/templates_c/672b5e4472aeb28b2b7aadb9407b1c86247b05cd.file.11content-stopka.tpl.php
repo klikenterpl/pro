@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2018-12-09 11:16:58
+<?php /* Smarty version Smarty-3.1.18, created on 2018-12-09 19:39:35
          compiled from "D:\wamp\www\VIPstronymonki\pro\data\themes\katalog-firm\tpl_common\11content-stopka.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:217405c0ceb9a9fcd75-43086788%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:91805c0d6167b132b0-55570669%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '672b5e4472aeb28b2b7aadb9407b1c86247b05cd' => 
     array (
       0 => 'D:\\wamp\\www\\VIPstronymonki\\pro\\data\\themes\\katalog-firm\\tpl_common\\11content-stopka.tpl',
-      1 => 1544277539,
+      1 => 1544380490,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '217405c0ceb9a9fcd75-43086788',
+  'nocache_hash' => '91805c0d6167b132b0-55570669',
   'function' => 
   array (
   ),
@@ -21,9 +21,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.18',
-  'unifunc' => 'content_5c0ceb9aa09c22_24948661',
+  'unifunc' => 'content_5c0d6167b1fcd2_51961150',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5c0ceb9aa09c22_24948661')) {function content_5c0ceb9aa09c22_24948661($_smarty_tpl) {?>		<footer id="wm-footer" class="footer-one">
+<?php if ($_valid && !is_callable('content_5c0d6167b1fcd2_51961150')) {function content_5c0d6167b1fcd2_51961150($_smarty_tpl) {?>		<footer id="wm-footer" class="footer-one">
 			<span class="wm-transparent-layer"></span>
 
 			<div class="container">
@@ -48,12 +48,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
 							<!--// Widegt Category \\-->
 							<aside class="col-md-3 widget widget_category">
-								<div class="wm-widget-heading"> <h2>Useful Links</h2> </div>
+								<div class="wm-widget-heading"> <h2>Przydatne linki</h2> </div>
 								<ul>
-									<li><a href="add-listing-step-1.html">All Listings</a></li>
-									<li><a href="404-page.html">About Us</a></li>
-									<li><a href="pricing-plans.html">Our Pricing Tables</a></li>
-									<li><a href="testimonials.html">What Clients Say</a></li>
+									<li><a href="polecane.html">Polecane firmy</a></li>
+									<li><a href="praca.html">Pracuj u nas</a></li>
+									<li><a href="reklama.html">Zareklamuj się</a></li>
+									<li><a href="kontakt.html">Kontakt</a></li>
 								</ul>
 							</aside>
 							<!--// Widegt Category \\-->

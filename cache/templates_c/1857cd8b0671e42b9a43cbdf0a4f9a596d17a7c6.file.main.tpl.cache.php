@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2018-12-09 11:15:49
+<?php /* Smarty version Smarty-3.1.18, created on 2018-12-09 19:39:25
          compiled from "D:\wamp\www\VIPstronymonki\pro\app\plugins\admin\templates\main.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:182935c0ceb556dd6a2-38514653%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:295895c0d615de4d4a5-48539920%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '182935c0ceb556dd6a2-38514653',
+  'nocache_hash' => '295895c0d615de4d4a5-48539920',
   'function' => 
   array (
   ),
@@ -34,11 +34,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => true,
   'version' => 'Smarty-3.1.18',
-  'unifunc' => 'content_5c0ceb558dda68_04701172',
+  'unifunc' => 'content_5c0d615e10c739_21612578',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5c0ceb558dda68_04701172')) {function content_5c0ceb558dda68_04701172($_smarty_tpl) {?><?php if (!is_callable('smarty_function_L')) include 'D:\\wamp\\www\\VIPstronymonki\\pro/data/functions\\function.L.php';
-?><?php echo '/*%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/<?php $_smarty = $_smarty_tpl->smarty; if (!is_callable(\'smarty_function_L\')) include \'D:\\\\wamp\\\\www\\\\VIPstronymonki\\\\pro/data/functions\\\\function.L.php\';
-?>/*/%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/';?>
+<?php if ($_valid && !is_callable('content_5c0d615e10c739_21612578')) {function content_5c0d615e10c739_21612578($_smarty_tpl) {?><?php if (!is_callable('smarty_function_L')) include 'D:\\wamp\\www\\VIPstronymonki\\pro/data/functions\\function.L.php';
+?><?php echo '/*%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/<?php $_smarty = $_smarty_tpl->smarty; if (!is_callable(\'smarty_function_L\')) include \'D:\\\\wamp\\\\www\\\\VIPstronymonki\\\\pro/data/functions\\\\function.L.php\';
+?>/*/%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/';?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -81,36 +81,36 @@ image/resources/blueimp-jQuery-File-Upload/js/cors/jquery.xdr-transport.js"></sc
 		<title>WinduCMS - Admin</title>
 	</head>
 
-    <?php echo '/*%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/<?php if (isset($_smarty_tpl->tpl_vars[\'bg\'])) {$_smarty_tpl->tpl_vars[\'bg\'] = clone $_smarty_tpl->tpl_vars[\'bg\'];
+    <?php echo '/*%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/<?php if (isset($_smarty_tpl->tpl_vars[\'bg\'])) {$_smarty_tpl->tpl_vars[\'bg\'] = clone $_smarty_tpl->tpl_vars[\'bg\'];
 $_smarty_tpl->tpl_vars[\'bg\']->value = config::get("backgroundAdmin".((string)$_smarty_tpl->tpl_vars[\'loggedIn\']->value->id)); $_smarty_tpl->tpl_vars[\'bg\']->nocache = true; $_smarty_tpl->tpl_vars[\'bg\']->scope = 0;
-} else $_smarty_tpl->tpl_vars[\'bg\'] = new Smarty_variable(config::get("backgroundAdmin".((string)$_smarty_tpl->tpl_vars[\'loggedIn\']->value->id)), true, 0);?>/*/%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/';?>
+} else $_smarty_tpl->tpl_vars[\'bg\'] = new Smarty_variable(config::get("backgroundAdmin".((string)$_smarty_tpl->tpl_vars[\'loggedIn\']->value->id)), true, 0);?>/*/%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/';?>
 
-    <?php echo '/*%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/<?php if (isset($_smarty_tpl->tpl_vars[\'configPomName\'])) {$_smarty_tpl->tpl_vars[\'configPomName\'] = clone $_smarty_tpl->tpl_vars[\'configPomName\'];
+    <?php echo '/*%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/<?php if (isset($_smarty_tpl->tpl_vars[\'configPomName\'])) {$_smarty_tpl->tpl_vars[\'configPomName\'] = clone $_smarty_tpl->tpl_vars[\'configPomName\'];
 $_smarty_tpl->tpl_vars[\'configPomName\']->value = "pins-".((string)$_smarty_tpl->tpl_vars[\'loggedIn\']->value->id); $_smarty_tpl->tpl_vars[\'configPomName\']->nocache = true; $_smarty_tpl->tpl_vars[\'configPomName\']->scope = 0;
-} else $_smarty_tpl->tpl_vars[\'configPomName\'] = new Smarty_variable("pins-".((string)$_smarty_tpl->tpl_vars[\'loggedIn\']->value->id), true, 0);?>/*/%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/';?>
+} else $_smarty_tpl->tpl_vars[\'configPomName\'] = new Smarty_variable("pins-".((string)$_smarty_tpl->tpl_vars[\'loggedIn\']->value->id), true, 0);?>/*/%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/';?>
 
-    <?php echo '/*%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/<?php if (isset($_smarty_tpl->tpl_vars[\'pins\'])) {$_smarty_tpl->tpl_vars[\'pins\'] = clone $_smarty_tpl->tpl_vars[\'pins\'];
+    <?php echo '/*%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/<?php if (isset($_smarty_tpl->tpl_vars[\'pins\'])) {$_smarty_tpl->tpl_vars[\'pins\'] = clone $_smarty_tpl->tpl_vars[\'pins\'];
 $_smarty_tpl->tpl_vars[\'pins\']->value = unserialize(config::get($_smarty_tpl->tpl_vars[\'configPomName\']->value)); $_smarty_tpl->tpl_vars[\'pins\']->nocache = true; $_smarty_tpl->tpl_vars[\'pins\']->scope = 0;
-} else $_smarty_tpl->tpl_vars[\'pins\'] = new Smarty_variable(unserialize(config::get($_smarty_tpl->tpl_vars[\'configPomName\']->value)), true, 0);?>/*/%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/';?>
+} else $_smarty_tpl->tpl_vars[\'pins\'] = new Smarty_variable(unserialize(config::get($_smarty_tpl->tpl_vars[\'configPomName\']->value)), true, 0);?>/*/%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/';?>
 
 
-    <body <?php echo '/*%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/<?php if ($_smarty_tpl->tpl_vars[\'bg\']->value!=null) {?>/*/%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/';?>
-style="background-color: #<?php echo '/*%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/<?php echo $_smarty_tpl->tpl_vars[\'bg\']->value;?>
-/*/%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/';?>
-"<?php echo '/*%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/<?php }?>/*/%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/';?>
+    <body <?php echo '/*%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/<?php if ($_smarty_tpl->tpl_vars[\'bg\']->value!=null) {?>/*/%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/';?>
+style="background-color: #<?php echo '/*%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/<?php echo $_smarty_tpl->tpl_vars[\'bg\']->value;?>
+/*/%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/';?>
+"<?php echo '/*%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/<?php }?>/*/%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/';?>
 >
         <noscript><div class="alert">Your browser does not support JavaScript!</div></noscript>
-        <?php echo '/*%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/<?php echo $_smarty_tpl->getSubTemplate (\'common/note_modal.tpl\', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
-/*/%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/';?>
+        <?php echo '/*%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/<?php echo $_smarty_tpl->getSubTemplate (\'common/note_modal.tpl\', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
+/*/%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/';?>
 
-        <div class="alert-waiting alert-popup alert-popup-blue"><img src="<?php echo '/*%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/<?php echo $_smarty_tpl->tpl_vars[\'HOME\']->value;?>
-/*/%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/';?>
+        <div class="alert-waiting alert-popup alert-popup-blue"><img src="<?php echo '/*%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/<?php echo $_smarty_tpl->tpl_vars[\'HOME\']->value;?>
+/*/%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/';?>
 app/plugins/admin/resources/img/ajax-loader.gif" style="margin-top:2px;"></div>
-        <?php echo '/*%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/<?php echo $_smarty_tpl->getSubTemplate (\'common/alert.tpl\', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
-/*/%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/';?>
+        <?php echo '/*%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/<?php echo $_smarty_tpl->getSubTemplate (\'common/alert.tpl\', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
+/*/%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/';?>
 
-        <div id="container" <?php echo '/*%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/<?php if (config::get("smallSidebar".((string)$_smarty_tpl->tpl_vars[\'loggedUser\']->value->id))==1) {?>/*/%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/';?>
-class="sidebar-small"<?php echo '/*%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/<?php }?>/*/%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/';?>
+        <div id="container" <?php echo '/*%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/<?php if (config::get("smallSidebar".((string)$_smarty_tpl->tpl_vars[\'loggedUser\']->value->id))==1) {?>/*/%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/';?>
+class="sidebar-small"<?php echo '/*%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/<?php }?>/*/%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/';?>
 >
             <div id="sidebar">
 
@@ -118,67 +118,67 @@ class="sidebar-small"<?php echo '/*%%SmartyNocache:182935c0ceb556dd6a2-38514653%
 
 
             </div>
-            <div id="content" <?php echo '/*%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/<?php if (is_array($_smarty_tpl->tpl_vars[\'pins\']->value)) {?>/*/%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/';?>
-class="content-margin-right"<?php echo '/*%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/<?php }?>/*/%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/';?>
+            <div id="content" <?php echo '/*%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/<?php if (is_array($_smarty_tpl->tpl_vars[\'pins\']->value)) {?>/*/%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/';?>
+class="content-margin-right"<?php echo '/*%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/<?php }?>/*/%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/';?>
 >
                 <div class="top-right-menu">
                     <div class="user-dropdown">
-                        <?php echo '/*%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/<?php echo $_smarty_tpl->getSubTemplate (\'common/top_right_buttons.tpl\', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
-/*/%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/';?>
+                        <?php echo '/*%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/<?php echo $_smarty_tpl->getSubTemplate (\'common/top_right_buttons.tpl\', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
+/*/%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/';?>
 
-                        <?php echo '/*%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/<?php echo $_smarty_tpl->getSubTemplate (\'common/tabs.tpl\', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
-/*/%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/';?>
+                        <?php echo '/*%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/<?php echo $_smarty_tpl->getSubTemplate (\'common/tabs.tpl\', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
+/*/%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/';?>
 
                     </div>
                 </div>
-                <?php echo '/*%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/<?php echo $_smarty_tpl->getSubTemplate ($_smarty_tpl->tpl_vars[\'page_content\']->value, $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
-/*/%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/';?>
+                <?php echo '/*%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/<?php echo $_smarty_tpl->getSubTemplate ($_smarty_tpl->tpl_vars[\'page_content\']->value, $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
+/*/%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/';?>
 
                 <div id="footer">
                     <div class="bottom-panel">
                         <div class="row-fluid">
                             <div class="span5 mobileHidden">
-                                <a href="<?php echo '/*%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/<?php echo $_smarty_tpl->tpl_vars[\'HOME\']->value;?>
-/*/%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/';?>
-admin/mainDo/toggleConfig/smallSidebar<?php echo '/*%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/<?php echo $_smarty_tpl->tpl_vars[\'loggedUser\']->value->id;?>
-/*/%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/';?>
-/" class="toggleSidebar" data-toggle="tooltip" data-placement="top" data-original-title="<?php echo '/*%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/<?php echo smarty_function_L(array(\'key\'=>\'admin.sidebar\'),$_smarty_tpl);?>
-/*/%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/';?>
-"><?php echo '/*%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/<?php if (config::get("smallSidebar".((string)$_smarty_tpl->tpl_vars[\'loggedUser\']->value->id))==1) {?>/*/%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/';?>
-<i class="fa fa-chevron-right icon-dark"></i><?php echo '/*%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/<?php } else { ?>/*/%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/';?>
-<i class="fa fa-chevron-left icon-dark"></i><?php echo '/*%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/<?php }?>/*/%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/';?>
+                                <a href="<?php echo '/*%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/<?php echo $_smarty_tpl->tpl_vars[\'HOME\']->value;?>
+/*/%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/';?>
+admin/mainDo/toggleConfig/smallSidebar<?php echo '/*%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/<?php echo $_smarty_tpl->tpl_vars[\'loggedUser\']->value->id;?>
+/*/%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/';?>
+/" class="toggleSidebar" data-toggle="tooltip" data-placement="top" data-original-title="<?php echo '/*%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/<?php echo smarty_function_L(array(\'key\'=>\'admin.sidebar\'),$_smarty_tpl);?>
+/*/%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/';?>
+"><?php echo '/*%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/<?php if (config::get("smallSidebar".((string)$_smarty_tpl->tpl_vars[\'loggedUser\']->value->id))==1) {?>/*/%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/';?>
+<i class="fa fa-chevron-right icon-dark"></i><?php echo '/*%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/<?php } else { ?>/*/%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/';?>
+<i class="fa fa-chevron-left icon-dark"></i><?php echo '/*%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/<?php }?>/*/%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/';?>
 </a>
-                                <?php echo '/*%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/<?php if (!cache::isCached($_smarty_tpl->tpl_vars[\'SITE_PATH\']->value,3600)) {?>/*/%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/';?>
-<?php echo '/*%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/<?php ob_start();?><?php echo $_smarty_tpl->tpl_vars[\'SITE_PATH\']->value;?>
+                                <?php echo '/*%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/<?php if (!cache::isCached($_smarty_tpl->tpl_vars[\'SITE_PATH\']->value,3600)) {?>/*/%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/';?>
+<?php echo '/*%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/<?php ob_start();?><?php echo $_smarty_tpl->tpl_vars[\'SITE_PATH\']->value;?>
 <?php $_tmp1=ob_get_clean();?><?php echo cache::write($_smarty_tpl->tpl_vars[\'SITE_PATH\']->value,round(baseFile::getSize($_tmp1)/1048576,2),\'disSize\');?>
-/*/%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/';?>
-<?php echo '/*%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/<?php }?>/*/%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/';?>
+/*/%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/';?>
+<?php echo '/*%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/<?php }?>/*/%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/';?>
 
-                                <i class="color-icons icons-network-ip-local">&nbsp;</i>&nbsp;<?php echo '/*%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/<?php echo generate::ip();?>
-/*/%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/';?>
+                                <i class="color-icons icons-network-ip-local">&nbsp;</i>&nbsp;<?php echo '/*%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/<?php echo generate::ip();?>
+/*/%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/';?>
  &nbsp;&nbsp;
-                                <i class="color-icons icons-database icon-margin">&nbsp;</i><?php echo '/*%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/<?php echo cache::read($_smarty_tpl->tpl_vars[\'SITE_PATH\']->value);?>
-/*/%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/';?>
+                                <i class="color-icons icons-database icon-margin">&nbsp;</i><?php echo '/*%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/<?php echo cache::read($_smarty_tpl->tpl_vars[\'SITE_PATH\']->value);?>
+/*/%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/';?>
  MB &nbsp;&nbsp;
                                 <span class="smallWidthHidden">
-                                    <i class="color-icons icons-databases icon-margin">&nbsp;</i><?php echo '/*%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/<?php echo round(baseFile::getSize(@constant(\'FILE_DB_PATH\'))/1048576,2);?>
-/*/%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/';?>
+                                    <i class="color-icons icons-databases icon-margin">&nbsp;</i><?php echo '/*%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/<?php echo round(baseFile::getSize(@constant(\'FILE_DB_PATH\'))/1048576,2);?>
+/*/%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/';?>
  MB &nbsp;&nbsp;
                                 </span>
                             </div>
                             <div class="span2 mobileHidden" style="text-align:center;">
                                 <div class="bottom-center-menu">
-                                    <a class="top" href="#top" data-toggle="tooltip" data-placement="bottom" data-original-title="<?php echo '/*%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/<?php echo smarty_function_L(array(\'key\'=>"admin.main.tpl.up"),$_smarty_tpl);?>
-/*/%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/';?>
+                                    <a class="top" href="#top" data-toggle="tooltip" data-placement="bottom" data-original-title="<?php echo '/*%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/<?php echo smarty_function_L(array(\'key\'=>"admin.main.tpl.up"),$_smarty_tpl);?>
+/*/%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/';?>
 "><i class="fa fa-arrow-circle-up icon-dark"></i></a>
-                                    <?php echo '/*%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/<?php if ($_smarty_tpl->tpl_vars[\'REQUEST\']->value->getVariable(\'subpage\')!=\'\') {?>/*/%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/';?>
-<a href="<?php echo '/*%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/<?php echo $_smarty_tpl->tpl_vars[\'HOME\']->value;?>
-/*/%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/';?>
-admin/mainDo/pinIt/<?php echo '/*%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/<?php echo $_smarty_tpl->tpl_vars[\'REQUEST\']->value->getVariable(\'subpage\');?>
-/*/%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/';?>
-/" data-toggle="tooltip" data-placement="bottom" data-original-title="<?php echo '/*%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/<?php echo smarty_function_L(array(\'key\'=>\'admin.pinit\'),$_smarty_tpl);?>
-/*/%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/';?>
-"><i class="fa fa-tag icon-dark" ></i></a><?php echo '/*%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/<?php }?>/*/%%SmartyNocache:182935c0ceb556dd6a2-38514653%%*/';?>
+                                    <?php echo '/*%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/<?php if ($_smarty_tpl->tpl_vars[\'REQUEST\']->value->getVariable(\'subpage\')!=\'\') {?>/*/%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/';?>
+<a href="<?php echo '/*%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/<?php echo $_smarty_tpl->tpl_vars[\'HOME\']->value;?>
+/*/%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/';?>
+admin/mainDo/pinIt/<?php echo '/*%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/<?php echo $_smarty_tpl->tpl_vars[\'REQUEST\']->value->getVariable(\'subpage\');?>
+/*/%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/';?>
+/" data-toggle="tooltip" data-placement="bottom" data-original-title="<?php echo '/*%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/<?php echo smarty_function_L(array(\'key\'=>\'admin.pinit\'),$_smarty_tpl);?>
+/*/%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/';?>
+"><i class="fa fa-tag icon-dark" ></i></a><?php echo '/*%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/<?php }?>/*/%%SmartyNocache:295895c0d615de4d4a5-48539920%%*/';?>
 
                                 </div>
                             </div>
