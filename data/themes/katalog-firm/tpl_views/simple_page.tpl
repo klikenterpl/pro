@@ -26,19 +26,26 @@
 
 							<!--// Content Section \\-->
 							<div class="col-md-8">
+								
+									<div class="wm-editore-section">
+										<h1>{{$page->views}}</h1>
+										<h6><a href="?edycja={{$page->id}}">Edytuj informację</a></h6>
+										<h3>{{$pagesDB->get($page->parentId,'name')}} - {{$page->name}}</h3>
+										<p>{{eval var=$page->content}}</p>
+								</div>
 
 								<!--// Listing Detail Slider \\-->
 								<div class="wm-listing-detail-slider">
 									<div class="wm-listing-detail-slider-wrap">
-										<img alt="" src="extra-images/listing-detail-1.jpg">
+										<img alt="" src="{{$TEMPLATE_HOME}}/extra-images/listing-detail-1.jpg">
 										<div class="wm-listing-tag"><a class="wm-bgcolor" href="#">Courses</a></div>
 									</div>
 									<div class="wm-listing-detail-slider-wrap">
-										<img alt="" src="extra-images/listing-detail-2.jpg">
+										<img alt="" src="{{$TEMPLATE_HOME}}/extra-images/listing-detail-2.jpg">
 										<div class="wm-listing-tag"><a class="wm-bgcolor" href="#">Courses</a></div>
 									</div>
 									<div class="wm-listing-detail-slider-wrap">
-										<img alt="" src="extra-images/listing-detail-3.jpg">
+										<img alt="" src="{{$TEMPLATE_HOME}}/extra-images/listing-detail-3.jpg">
 										<div class="wm-listing-tag"><a class="wm-bgcolor" href="#">Courses</a></div>
 									</div>
 								</div>
@@ -59,11 +66,7 @@
 								<!--// Listing Detail Options \\-->
 
 								<!--// Editore Section \\-->
-								<div class="wm-editore-section">
-									<h6>Edytuj informację</h6>
-									<h3>{{$page->name}}</h3>
-									<p>{{$page->content}}</p>
-								</div>
+	
 								<!--// Editore Section \\-->
 
 								<div class="row">
@@ -133,10 +136,10 @@
 								<div class="wm-floorplans">
 									<div class="wm-section-heading"><h2>floor plans</h2></div>
 									<ul class="row">
-										<li class="col-md-3"><a href="#"><img alt="" src="extra-images/floorplans-1.jpg"> <span>+3</span></a></li>
-										<li class="col-md-3"><a href="#"><img alt="" src="extra-images/floorplans-2.jpg"> <span>+3</span></a></li>
-										<li class="col-md-3"><a href="#"><img alt="" src="extra-images/floorplans-3.jpg"> <span>+3</span></a></li>
-										<li class="col-md-3"><a href="#"><img alt="" src="extra-images/floorplans-4.jpg"> <span>+3</span></a></li>
+										<li class="col-md-3"><a href="#"><img alt="" src="{{$TEMPLATE_HOME}}/extra-images/floorplans-1.jpg"> <span>+3</span></a></li>
+										<li class="col-md-3"><a href="#"><img alt="" src="{{$TEMPLATE_HOME}}/extra-images/floorplans-2.jpg"> <span>+3</span></a></li>
+										<li class="col-md-3"><a href="#"><img alt="" src="{{$TEMPLATE_HOME}}/extra-images/floorplans-3.jpg"> <span>+3</span></a></li>
+										<li class="col-md-3"><a href="#"><img alt="" src="{{$TEMPLATE_HOME}}/extra-images/floorplans-4.jpg"> <span>+3</span></a></li>
 									</ul>
 								</div>
 								<!--// Floor Plans \\-->
@@ -146,7 +149,7 @@
 									<div class="wm-section-heading"><h2>you might also like</h2></div>
 									<ul class="row">
 										<li class="col-md-6">
-											<figure><a href="#"><img alt="" src="extra-images/recent-realestate-1.jpg"></a>
+											<figure><a href="#"><img alt="" src="{{$TEMPLATE_HOME}}/extra-images/recent-realestate-1.jpg"></a>
 												<figcaption>
 													<div class="wm-listing-tag"><a href="#" class="wm-bgcolor">Condo</a></div>
 													<h2><a href="#">463 E 40th Saints 11203</a></h2>
@@ -162,7 +165,7 @@
 											</div>
 										</li>
 										<li class="col-md-6">
-											<figure><a href="#"><img alt="" src="extra-images/recent-realestate-2.jpg"></a>
+											<figure><a href="#"><img alt="" src="{{$TEMPLATE_HOME}}/extra-images/recent-realestate-2.jpg"></a>
 												<figcaption>
 													<div class="wm-listing-tag"><a href="#" class="wm-bgcolor">Multi-family home</a></div>
 													<h2><a href="#">439 Putnam Ave 11221</a></h2>
@@ -189,7 +192,7 @@
 				                          <div class="wm-reviews-wrap">
 				                            <ul>
 				                              <li>
-				                                <figure><a href="#"><img alt="" src="extra-images/latest-review-1.jpg"></a></figure>
+				                                <figure><a href="#"><img alt="" src="{{$TEMPLATE_HOME}}/extra-images/latest-review-1.jpg"></a></figure>
 				                                <div class="wm-review-text">
 				                                  <h6><a href="#">Charles B. Russell</a></h6>
 				                                  <div class="wm-review-list">
@@ -207,7 +210,7 @@
 				                          <div class="wm-reviews-wrap">
 				                            <ul>
 				                              <li>
-				                                <figure><a href="#"><img alt="" src="extra-images/latest-review-2.jpg"></a></figure>
+				                                <figure><a href="#"><img alt="" src="{{$TEMPLATE_HOME}}/extra-images/latest-review-2.jpg"></a></figure>
 				                                <div class="wm-review-text">
 				                                  <h6><a href="#">Charles B. Russell</a></h6>
 				                                  <div class="wm-review-list">
@@ -222,7 +225,7 @@
 				                          </div>
 				                          <ul class="children">
 				                            <li>
-				                                <figure><a href="#"><img alt="" src="extra-images/latest-review-3.jpg"></a></figure>
+				                                <figure><a href="#"><img alt="" src="{{$TEMPLATE_HOME}}/extra-images/latest-review-3.jpg"></a></figure>
 				                                <div class="wm-review-text">
 				                                  <h6><a href="#">Charles B. Russell</a></h6>
 				                                  <div class="wm-review-list">
@@ -259,129 +262,62 @@
 							<aside class="col-md-4">
 			                    <div class="widget wm-searching-widget">
 			                        <div class="wm-widget-listing-heading">
-			                        	<h2>Search Listings</h2>
-			                            <p>Type your search in order to find the best property:</p>
+			                        	<h2>Przeglądaj firmy, urzędy, instytucje</h2>
+			                            {{W name=nextPrev}}
+			                <div class="col-md-12">
+							<div class="ec-accordian-element" id="accordion">
+							  <div class="panel panel-default">
+							    <div class="panel-heading">
+							      <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+							          
+							          {{$pagesDB->get($page->parentId,'name')}}
+							        </a>
+							    </div>
+							    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel">
+							      <div class="panel-body">
+							        {{W name=contentListShow type="lastest" bucket=$page->parentId fit="fit" filter="blur" showDate=true showAuthor=true showSource=true elementtype=1 imageWidth="" imageHeight="" count="" limit="10" cssUl="ec-icon-list-style" cssLi="fa wm-color fa-caret-right"}}
+							      </div>
+							    </div>
+							  </div>
+							  <div class="panel panel-default">
+							    <div class="panel-heading">
+							      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+							          {{$pagesDB->get(1309,'name')}}
+							        </a>
+							    </div>
+							    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel">
+							      <div class="panel-body">
+							        {{W name=contentListShow type="lastest" bucket=1309 fit="fit" filter="blur" showDate=true showAuthor=true showSource=true elementtype=1 imageWidth="" imageHeight="" count="" limit="10" cssUl="ec-icon-list-style" cssLi="fa wm-color fa-caret-right"}}
+							      </div>
+							    </div>
+							  </div>
+							  <div class="panel panel-default">
+							    <div class="panel-heading">
+							      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+							         {{$pagesDB->get(908,'name')}}
+							        </a>
+							    </div>
+							    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel">
+							      <div class="panel-body">
+							        {{W name=contentListShow type="lastest" bucket=908 fit="fit" filter="blur" showDate=true showAuthor=true showSource=true elementtype=1 imageWidth="" imageHeight="" count="" limit="10" cssUl="ec-icon-list-style" cssLi="fa wm-color fa-caret-right"}}
+							      </div>
+							    </div>
+							  </div>
+							</div>
+						</div>
 			                        </div>
-			                         <form class="wm-form-widget">
-			                              <ul class="wm-form-widget-wrap">
-			                                <li>
-			                                  <input type="text" onfocus="if(this.value =='Keywords') { this.value = ''; }" onblur="if(this.value == '') { this.value ='Keywords'; }" value="Keywords">
-			                                </li>
-			                                  <li>
-			                                    <div class="wm-select">
-			                                        <select>
-			                                            <option>Location</option>
-			                                            <option>London</option>
-			                                            <option>Australia</option>
-			                                            <option>UK</option>
-			                                        </select>
-			                                    </div>
-			                                  </li>
-			                                  <li>
-			                                    <div class="wm-select">
-			                                        <select>
-			                                            <option>Proerty status</option>
-			                                            <option>London</option>
-			                                            <option>Australia</option>
-			                                            <option>UK</option>
-			                                        </select>
-			                                    </div>
-			                                  </li>
-			                                  <li>
-			                                    <div class="wm-select">
-			                                        <select>
-			                                            <option>Property type</option>
-			                                            <option>London</option>
-			                                            <option>Australia</option>
-			                                            <option>UK</option>
-			                                        </select>
-			                                    </div>
-			                                  </li>
-			                                  <li>
-			                                    <div class="wm-select">
-			                                        <select>
-			                                            <option>Bedrooms</option>
-			                                            <option>one</option>
-			                                            <option>two</option>
-			                                            <option>three</option>
-			                                        </select>
-			                                    </div>
-			                                  </li>
-			                                  <li>
-			                                    <div class="wm-select">
-			                                        <select>
-			                                            <option>Bathroom</option>
-			                                            <option>one</option>
-			                                            <option>two</option>
-			                                            <option>three</option>
-			                                        </select>
-			                                    </div>
-			                                  </li>
-			                                  <li>
-			                                    <div class="wm-select">
-			                                        <select>
-			                                            <option>Garrage</option>
-			                                            <option>one</option>
-			                                            <option>two</option>
-			                                            <option>three</option>
-			                                        </select>
-			                                    </div>
-			                                  </li>
-			                                  <li>
-			                                    <div class="wm-select">
-			                                        <select>
-			                                            <option>Radius</option>
-			                                            <option>one</option>
-			                                            <option>two</option>
-			                                            <option>three</option>
-			                                        </select>
-			                                    </div>
-			                                  </li>
-			                                  <li>
-			                                       <input type="submit" value="Search">
-			                                  </li>
-			                              </ul>   
-				                          <div class="wm-select-checkbox">
-				                               <h3><a href="#">Advanced Search</a></h3>
-			                                   <ul>
-			                                        <li>
-			                                          <input type="checkbox" id="c1" name="ca">
-			                                          <label for="c1"><span></span>Parking</label>
-			                                        </li>
-			                                        <li>
-			                                          <input type="checkbox" id="c2" name="ca">
-			                                          <label for="c2"><span></span>Wi-Fi</label>
-			                                        </li>
-			                                        <li>
-			                                          <input type="checkbox" id="c3" name="ca">
-			                                          <label for="c3"><span></span>Cable TV</label>
-			                                        </li>
-			                                        <li>
-			                                          <input type="checkbox" id="c4" name="ca">
-			                                          <label for="c4"><span></span>Bolcony</label>
-			                                        </li>
-			                                        <li>
-			                                          <input type="checkbox" id="c5" name="ca">
-			                                          <label for="c5"><span></span>Microwave</label>
-			                                        </li>
-			                                        <li>
-			                                          <input type="checkbox" id="c6" name="ca">
-			                                          <label for="c6"><span></span>Tea Pot</label>
-			                                        </li>
-			                                   </ul>
-			                                </div>
-			                         </form>
+									
 			                    </div>
 
 		                        <div class="widget wm-featured-widget">
 		                               <div class="wm-widget-listing-heading">
 		                                	<h2>Featured Listings</h2>
-		                                    <p>Type your search in order to find the best property:</p>
+		                                    <p>Zobacz co jeszcze warto obejrzeć</p>
 		                                </div>
 		                                <ul>
 		                                    <li>
 		                                        <figure>
-		                                            <a href="#"><img src="extra-images/directory-widget-1.jpg" alt=""></a>
+		                                            <a href="#"><img src="{{$TEMPLATE_HOME}}/extra-images/directory-widget-1.jpg" alt=""></a>
 		                                            <i class="fa fa-long-arrow-right"></i>
 		                                        </figure>
 		                                        <section class="wm-newsinfo">
@@ -392,7 +328,7 @@
 		                                    </li>
 		                                    <li>
 		                                        <figure>
-		                                            <a href="#"><img src="extra-images/directory-widget-2.jpg" alt=""></a>
+		                                            <a href="#"><img src="{{$TEMPLATE_HOME}}/extra-images/directory-widget-2.jpg" alt=""></a>
 		                                            <i class="fa fa-long-arrow-right"></i>
 		                                        </figure>
 		                                        <section class="wm-newsinfo">
@@ -403,7 +339,7 @@
 		                                    </li>
 		                                    <li>
 		                                        <figure>
-		                                            <a href="#"><img src="extra-images/directory-widget-3.jpg" alt=""></a>
+		                                            <a href="#"><img src="{{$TEMPLATE_HOME}}/extra-images/directory-widget-3.jpg" alt=""></a>
 		                                            <i class="fa fa-long-arrow-right"></i>
 		                                        </figure>
 		                                        <section class="wm-newsinfo">

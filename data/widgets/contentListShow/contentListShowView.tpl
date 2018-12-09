@@ -48,8 +48,8 @@
 {if !empty($results)}
 <ul class="{$params.cssUl}">
 {foreach $results as $page}
-  <li class="{$params.cssLi}">
-    <a href="{$HOME}{$page->urlKey}" class="punktowanie"><h5>{$page->name}</h5></a>
+  <li>
+    <i class="{$params.cssLi}"></i><a href="{$HOME}{$page->urlKey}" class="punktowanie">{$page->name}</a>
   </li>
 {/foreach}
 </ul>
